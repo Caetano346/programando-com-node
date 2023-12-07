@@ -2,7 +2,21 @@ POST http://localhost:3333/livro
 Content-Type: application/json
 
 {
-    "titulo": "Livro 01",
-    "autor": "Autor 01",
-    "npaginas": 450
+    "titulo": "livro 01",
+    "autor": "autor 01",
+    "npaginas": "400"
+}
+
+###
+
+GET http://localhost:3333/livro
+
+###
+PUT http://localhost:3333/livro
+Content-Type: application/json
+
+{
+    "titulo": "livro 01",
+    "autor": "autor 01",
+    "npaginas": 400
 }
